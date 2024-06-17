@@ -1,0 +1,14 @@
+[package]
+name = "aztec"
+version = "0.1.0"
+edition = "2021"
+description = "AZTEC compression algorithm"
+repository = "https://github.com/Orange-Murker/aztec"
+license = "MIT OR Apache-2.0"
+keywords = ["AZTEC", "compression"]
+categories = ["compression", "embedded", "no-std", "no-std::no-alloc"]
+
+[dependencies]
+
+[dev-dependencies]
+rand = "0.8.5"
