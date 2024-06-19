@@ -10,6 +10,7 @@
 //!
 //! Usage:
 //! ```rust
+//! use aztec::AztecConfigBuilder;
 //! const THRESHOLD: u16 = 50;
 //! let config = AztecConfigBuilder::new(THRESHOLD)
 //!    .max_slope_line_len(4)
